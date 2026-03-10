@@ -2,7 +2,7 @@ import { useState, useEffect, useCallback, useMemo } from "react";
 
 // ─── CONFIG ───────────────────────────────────────────────────────────────────
 // PASTE YOUR APPS SCRIPT DEPLOYMENT URL HERE:
-const APPS_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbxKAxR8GPzwQfJG4mENmzd1QgqPlsAKnuC7iC1CMW3LzrzbuyHjoLdexlbfXL9MRKU3/exec";
+const APPS_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbwNkdImRcmOQRAqDE-iaGENrbWwKwFPKLwfdt9sQxMBui_kVBl8Nhg840r4U5dwz8JI/exec";
 
 const COMMITTEES = ["UNODC", "UNHRC", "UNW", "DISEC", "FIFA", "WHO"];
 const MAX_CAP = 25;
