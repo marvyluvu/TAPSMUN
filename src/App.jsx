@@ -289,7 +289,7 @@ export default function MUNDashboard() {
   };
 
   const handleSendReminders = async () => {
-    if (!window.confirm(`Send payment reminder emails to ${unpaid.length} unpaid delegates and highlight them yellow?`)) return;
+    if (!window.confirm(`Send payment reminder emails to ${unpaid.length} unemailed delegates and highlight them yellow?`)) return;
     setEmailSending(true);
     setEmailResult(null);
     const res = await api("sendPaymentReminders");
