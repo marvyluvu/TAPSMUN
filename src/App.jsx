@@ -5,7 +5,7 @@ import { useState, useEffect, useCallback, useMemo } from "react";
 const APPS_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbyrWZMT9pH5nzsQKYfv61ewH6xUpIjyRNOod8qtEc_WTR4DDbOPyKbWZaXC4S5legDj/exec";
 
 const COMMITTEES = ["UNODC", "UNHRC", "UNW", "DISEC", "FIFA", "WHO"];
-const MAX_CAP = 25;
+const MAX_CAP = 20;
 
 const COMMITTEE_COLORS = {
   UNODC:  { bg: "#0D3B66", accent: "#3A7CA5" },
